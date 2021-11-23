@@ -6,30 +6,7 @@
   line-height: 28px;
   color: #ffffff;
   margin-right: 18px;
-  text-decoration: underline;
-}
-
-.header__link:hover {
-  text-decoration: underline;
-}
-
-.header__link:active {
-  text-decoration: underline;
-}
-
-.header__link:last-of-type  {
-  margin-right: 0;
   text-decoration: none;
-}
-
-.header__link:hover:last-of-type  {
-  margin-right: 0;
-  text-decoration: underline;
-}
-
-.header__link:active:last-of-type  {
-  margin-right: 0;
-  text-decoration: underline;
 }
 
 @media screen and (max-width: 540px) {
