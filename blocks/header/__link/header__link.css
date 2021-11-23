@@ -1,0 +1,41 @@
+.header__link {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  color: #ffffff;
+  margin-right: 18px;
+  text-decoration: underline;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
+
+.header__link:active {
+  text-decoration: underline;
+}
+
+.header__link:last-of-type  {
+  margin-right: 0;
+  text-decoration: none;
+}
+
+.header__link:hover:last-of-type  {
+  margin-right: 0;
+  text-decoration: underline;
+}
+
+.header__link:active:last-of-type  {
+  margin-right: 0;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 540px) {
+  .header__link {
+    font-size: 18px;
+    line-height: 20px;
+    top: 28px;
+  }
+}

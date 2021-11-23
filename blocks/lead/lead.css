@@ -1,0 +1,39 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 56px;
+  padding-right: 148px;
+  padding-bottom: 0px;
+  padding-left: 148px;
+}
+
+@media screen and (max-width: 1200px) {
+  .lead {
+    padding-right: 48px;
+    padding-bottom: 0;
+    padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .lead {
+    padding-top: 48px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .lead {
+    padding-top: 48px;
+    padding-right: 2px;
+    padding-bottom: 0px;
+    padding-left: 2px
+  }
+}
