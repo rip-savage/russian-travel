@@ -1,13 +1,25 @@
 .lead__capiton {
   margin: 0;
-  width:100%;
-  text-align: left;
+  max-width: 100%;
   font-weight: 400;
   font-style: normal;
   font-size: 10px;
   line-height: 14px;
-  letter-spacing: 0.0938rem;
+  letter-spacing: 1.5px;
   color: #ffffff;
-  padding: 8px 0 0 0;
+  margin-top: 8px;
   text-transform: uppercase;
+  align-self: start;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__capiton {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__capiton {
+    padding-left: 16px;
+  }
 }
